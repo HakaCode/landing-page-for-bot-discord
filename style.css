@@ -1,0 +1,292 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+/*Base*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font: 100%;
+	font-weight: normal;
+	outline: none;
+	vertical-align: baseline;
+}
+
+/*Estilos Gerais*/
+body {
+	height: 800px;
+	background: #99AAB5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*CABEÇALHO*/
+.header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background: #23272A;
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul {
+	list-style-type: none;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.header_menu ul li a {
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/*introdução*/
+.intro {
+	height: 400px;
+	background: #2C2F33;
+	margin-top: 70px;
+	text-align: center;
+	padding-top: 70px; 
+}
+
+.intro h1 {
+	font-size: 7em;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.btn {
+    display: inline;
+    position: relative;
+    margin: 0px 85px 0px 85px;
+    padding: 25px 30px;
+    background: #7289DA;
+    border-radius: 5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.btn a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+
+/*Sobre*/
+.about {
+	background: #23272A;
+	
+}
+
+.about_title h2{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 20px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.about_title h2:before, .about_title h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #7289DA;
+	margin: 15px auto 10px auto;
+}
+
+.about_content .txt {
+	font-size: 17px;
+	color: #d2d8ea;
+	line-height: 27px;
+	margin: 0;
+	padding: 30px 120px 78px;
+}
+
+/*Funções do bot*/
+
+.func {
+	height: 500px; /* testando o comprimento */
+	background: #23272A;
+}
+
+.func .func_title {
+	position: relative;
+	text-align: center;
+}
+
+.func .func_title h2 {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 20px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.func h2:before, .func h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #7289DA;
+	margin: 15px auto 15px auto;
+}
+
+.func img {
+	float: left;
+	padding: 15px 30px;
+}
+
+.func_subtitle h3 {
+	position: relative;
+	font-size: 1em;
+	font-weight: 500;
+	padding: 20px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.func_subtitle p {
+	position: relative;
+	padding: 5px 30px;
+	color: #C9D8D2;
+}
+
+.left img {
+	float: right;
+}
+
+/* Mais Informações */
+
+.info {
+	height: 346px;
+	background: #2C2F33;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 70px; 
+}
+
+.info_title h2 {
+	font-size: 2em;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.info h2:before, .info h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #7289DA;
+	margin: 15px auto 15px auto;
+}
+
+.info .btn {
+	margin: 0px 30px;
+	padding: 20px 10px;
+}
+
+.info .btn a {
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	display: none;
+	height: 60px;
+	background: red;
+}
+
+
