@@ -1,11 +1,14 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![GitHub forks](https://img.shields.io/github/forks/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/network)
 [![GitHub stars](https://img.shields.io/github/stars/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/issues)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # landing-page-for-bot-discord
  Um simples e bem basico landing page para Bots do Discord, criado no meu tempo livre.
