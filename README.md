@@ -3,6 +3,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/network)
 [![GitHub stars](https://img.shields.io/github/stars/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/issues)
+<!--![GitHub contributors](https://img.shields.io/github/contributors/HakaCode/landing-page-for-bot-discord)-->
 
 
 # landing-page-for-bot-discord
