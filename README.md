@@ -3,7 +3,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![GitHub forks](https://img.shields.io/github/forks/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/network)
 [![GitHub stars](https://img.shields.io/github/stars/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/stargazers)
@@ -36,3 +36,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+[![Visits Badge](https://badges.pufler.dev/visits/HakaCode/landing-page-for-bot-discord)](https://badges.pufler.dev)
