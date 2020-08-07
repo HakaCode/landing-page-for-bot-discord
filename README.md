@@ -36,4 +36,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
 [![Visits Badge](https://badges.pufler.dev/visits/HakaCode/landing-page-for-bot-discord)](https://badges.pufler.dev)
