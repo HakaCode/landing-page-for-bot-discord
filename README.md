@@ -8,6 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/network)
 [![GitHub stars](https://img.shields.io/github/stars/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/issues)
+[![Visits Badge](https://badges.pufler.dev/visits/HakaCode/landing-page-for-bot-discord)](https://badges.pufler.dev)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # landing-page-for-bot-discord
@@ -36,5 +37,3 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-[![Visits Badge](https://badges.pufler.dev/visits/HakaCode/landing-page-for-bot-discord)](https://badges.pufler.dev)
