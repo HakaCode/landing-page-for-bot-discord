@@ -15,7 +15,7 @@
  A simple and very basic landing page for Discord Bots, created in my spare time.
  # Reworked from scratch with new design!
 
- ![Image of Project](https://repository-images.githubusercontent.com/201714625/99d85d80-bbd6-11e9-8690-1f251cf6f042)
+ ![Image of Project](https://cdn.discordapp.com/attachments/387708260670504963/1145979037899051078/image.png)
 
 ## Contributors ✨
 
