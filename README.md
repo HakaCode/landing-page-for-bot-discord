@@ -13,6 +13,7 @@
 
 # landing-page-for-bot-discord
  A simple and very basic landing page for Discord Bots, created in my spare time.
+ # Reworked from scratch with new design!
 
  ![Image of Project](https://repository-images.githubusercontent.com/201714625/99d85d80-bbd6-11e9-8690-1f251cf6f042)
 
