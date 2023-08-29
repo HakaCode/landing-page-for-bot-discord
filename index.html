@@ -1,117 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Landing page for your discord bot.</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://kit.fontawesome.com/755b6605e0.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Discord Bot Landing Page</title>
 </head>
-
 <body>
-	<header class="header">
-		<div class="container">
-			<nav class="header_menu">
-				<ul>
-					<li><a href="#!">Inicio</a></li>
-					<li><a href="#!">Sobre</a></li>
-					<li><a href="#!">Funções do Bot</a></li>
-					<li><a href="#!">Mais Informações</a></li>
-				</ul>
-			</nav>
-			<!--NAV-->
-		</div>
-	</header>
-	<section class="intro container">
-		<h1>Name Bot</h1>
-		<div class="btn">
-			<a href="#"><i class="fas fa-plus"></i> ADD BOT</a>
-		</div>
-		<div class="btn">
-			<a href="#"><i class="fas fa-terminal"></i> Commands</a>
-		</div>
-	</section>
-	<!--section Conteudo-->
-	<section class="about container">
-		<div class="about_title">
-			<h2>About</h2>
-		</div>
-		<div class="about_content">
-			<p class="txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-				Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-				Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-		</div>
-	</section>
-	<!--Funções do Bot-->
-	<section class="func container">
-		<div class="func_title">
-			<h2>Funções do Bot</h2>
-		</div>
-		<img src="https://dummyimage.com/410x230/4d494d/686a82.gif&text=410+x+230" alt="placeholder+image">
-		<div class="func_subtitle">
-			<h3>Funções de Música</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-		</div>
-	</section>
-	<section class="func container left">
-		<img src="https://dummyimage.com/410x230/4d494d/686a82.gif&text=410+x+230" alt="placeholder+image">
-		<div class="func_subtitle">
-			<h3>Funções de Música</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-		</div>
-	</section>
-	<section class="info container">
-		<div class="info_title">
-			<h2>Mais Informações</h2>
-		</div>
-		<div class="btn">
-			<a href="#"><i class="fas fa-star"></i> Funções Premium</a>
-		</div>
-		<div class="btn">
-			<a href="#"><i class="fas fa-headset"></i> Servidor de Suporte</a>
-		</div>
-	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<footer>
-		Your Content Here....
-	</footer>
+  <header>
+    <nav>
+      <div class="logo">YourBotName</div>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links active">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Commands</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to YourBotName!</h1>
+      <p>Your bot's description and features here.</p>
+      <button class="cta-button">Invite Now</button>
+    </div>
+  </section>
+  
+  <section class="features">
+    <div class="feature">
+      <div class="feature__image">
+        <img  src="musica-romantica.png" alt="icon musica">
+      </div>
+      <h2>Musica 24/7</h2>
+      <p>Toque músicas de diferentes fontes, como YouTube e SoundCloud, diretamente no canal de voz do servidor. Mantenha a festa acontecendo com uma variedade de comandos de música.</p>
+    </div>
+    <div class="feature">
+      <div class="feature__image">
+        <img src="distintivo.png" alt="icone moderação">
+      </div>
+      <h2>Moderação Eficiente</h2>
+      <p>Mantenha seu servidor seguro com recursos de moderação avançada. Detecte automaticamente comportamentos inadequados e implemente medidas como mutar, banir e limpar mensagens ofensivas.</p>
+    </div>
+    <div class="feature">
+      <div class="feature__image">
+        <img src="integracao.png" alt="icone integração">
+      </div>
+      <h2>Integrações Personalizadas</h2>
+      <p>Integre o bot com APIs externas para fornecer informações em tempo real, como previsão do tempo, cotações de criptomoedas ou notícias recentes. Personalize o bot de acordo com as necessidades únicas do seu servidor.</p>
+    </div>
+  </section>
+  
+  <section class="footer">
+    <p>&copy; 2023 YourBotName. All rights reserved.</p>
+  </section>
+  <script src="script.js"></script>
 </body>
-
 </html>
