@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   font-family: Arial, sans-serif;
   overflow-x: hidden;
@@ -23,21 +23,6 @@ nav {
   padding: 0 20px;
 }
 
-/* Estilos para o menu hamburguer */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  margin-right: 20px;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 3px 0;
-}
-
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -53,7 +38,6 @@ ul li a {
   text-decoration: none;
   color: white;
 }
-
 .hero {
   background-image: url("background.png");
   background-size: cover;
@@ -61,7 +45,6 @@ ul li a {
   text-align: center;
   padding: 100px 0;
 }
-
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
@@ -96,13 +79,15 @@ ul li a {
   padding: 20px;
   border: 1px solid #ddd;
   margin-bottom: 20px;
-  /* height: 444px; */
+  /* min-height: 444px; */
+  
+  max-height: 532px;
   flex-wrap: wrap;
-  /* min-width: 300px; */
 }
 .feature img {
   width: 115px;
 }
+
 .feature__image,
 h2 {
   text-align: center;
@@ -116,6 +101,18 @@ h2 {
 
 /* Estilos para o menu de navegação responsivo */
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
@@ -126,22 +123,26 @@ h2 {
     top: 62px;
     left: -40px;
     z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
   }
 
   .nav-links.active {
     display: flex;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
 
   .nav-links li {
     padding: 15px 0;
-    border: 1px solid #494848;
-  }
-  .nav-links li:hover {
-    background-color: #414040;
+    border: 1px solid #494949;
   }
 
-  .hamburger {
-    display: flex;
+  .nav-links li:hover {
+    background-color: #404040;
   }
 
   .features {
