@@ -37,7 +37,15 @@ ul {
 ul li a {
   text-decoration: none;
   color: white;
+  font-size: 1.1rem;
+  transition: 0.4s;
 }
+
+ul.nav-links li a:hover {
+  padding: 0 10px;
+  border-bottom: 1px solid white;
+}
+
 .hero {
   background-image: url("background.png");
   background-size: cover;
@@ -63,6 +71,11 @@ ul li a {
   border-radius: 28px;
   padding: 16px 32px;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.cta-button:hover {
+  background-color: rgb(105, 116, 238)
 }
 
 .features {
@@ -78,20 +91,27 @@ ul li a {
   width: 100%;
   padding: 20px;
   border: 1px solid #ddd;
-  margin-bottom: 20px;
-  /* min-height: 444px; */
+  min-height: 500px;
+  margin: 0 5px;
   
-  max-height: 532px;
   flex-wrap: wrap;
+  transition: 0.5s;
 }
+
+.feature:hover {
+  box-shadow: 0px 0px 15px rgba(108, 108, 108, 0.578);
+}
+
 .feature img {
   width: 115px;
+  transition: ease;
 }
 
 .feature__image,
 h2 {
   text-align: center;
 }
+
 .footer {
   background-color: #333;
   color: white;
@@ -147,5 +167,10 @@ h2 {
 
   .features {
     flex-direction: column;
+  }
+
+  .feature {
+    margin-bottom: 20px;
+    min-height: auto;
   }
 }
