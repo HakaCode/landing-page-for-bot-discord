@@ -2,13 +2,7 @@
 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![GitHub forks](https://img.shields.io/github/forks/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/network)
-[![GitHub stars](https://img.shields.io/github/stars/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/HakaCode/landing-page-for-bot-discord)](https://github.com/HakaCode/landing-page-for-bot-discord/issues)
-[![Visits Badge](https://badges.pufler.dev/visits/HakaCode/landing-page-for-bot-discord)](https://badges.pufler.dev)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # landing-page-for-bot-discord
@@ -25,13 +19,17 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/TheDeveloperProjectOpenSource"><img src="https://avatars1.githubusercontent.com/u/24197640?v=4" width="100px;" alt=""/><br /><sub><b>TheDeveloperProjectOpenSource</b></sub></a><br /><a href="#design-TheDeveloperProjectOpenSource" title="Design">🎨</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TheDeveloperProjectOpenSource"><img src="https://avatars1.githubusercontent.com/u/24197640?v=4?s=100" width="100px;" alt="TheDeveloperProjectOpenSource"/><br /><sub><b>TheDeveloperProjectOpenSource</b></sub></a><br /><a href="#design-TheDeveloperProjectOpenSource" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Luan-Santos-Dev"><img src="https://avatars.githubusercontent.com/u/96590556?v=4?s=100" width="100px;" alt="Luan dos Santos"/><br /><sub><b>Luan dos Santos</b></sub></a><br /><a href="https://github.com/HakaCode/landing-page-for-bot-discord/commits?author=Luan-Santos-Dev" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
