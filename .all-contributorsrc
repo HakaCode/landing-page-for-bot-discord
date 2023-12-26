@@ -13,6 +13,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Luan-Santos-Dev",
+      "name": "Luan dos Santos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96590556?v=4",
+      "profile": "https://github.com/Luan-Santos-Dev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -20,5 +29,7 @@
   "projectOwner": "HakaCode",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs",
+  "commitConvention": "angular"
 }
