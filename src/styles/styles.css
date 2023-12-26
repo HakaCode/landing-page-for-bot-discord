@@ -1,6 +1,8 @@
 body {
-  margin: 0;
+  position: relative;
+  margin: 0 auto;
   padding: 0;
+  max-width: 2120px;
   box-sizing: border-box;
   font-size: 1rem;
   line-height: 1.5;
@@ -9,18 +11,34 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
   color: white;
-  padding: 20px 0;
+  height: 590px;
 }
 
 nav {
-  max-width: 1200px;
-  margin: 0 auto;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  background-color: #181818;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-gradient-separator {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background: rgb(105,114,221);
+  background: -moz-radial-gradient(circle, rgba(105,114,221,1) 0%, rgba(43,43,43,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(105,114,221,1) 0%, rgba(43,43,43,1) 100%);
+  background: radial-gradient(circle, rgba(105,114,221,1) 0%, rgba(43,43,43,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6972dd",endColorstr="#2b2b2b",GradientType=1); 
+  margin-top: 0px; 
 }
 
 .logo {
@@ -47,12 +65,14 @@ ul.nav-links li a:hover {
 }
 
 .hero {
-  background-image: url("background.png");
-  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   text-align: center;
-  padding: 100px 0;
 }
+
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
@@ -64,18 +84,26 @@ ul.nav-links li a:hover {
 }
 
 .cta-button {
-  background-color: #5865f2;
+  background-color: rgb(100,111,233);
+  background-color: -moz-linear-gradient(270deg, rgba(100,111,233,1) 0%, rgba(88,101,242,1) 100%);
+  background-color: -webkit-linear-gradient(270deg, rgba(100,111,233,1) 0%, rgba(88,101,242,1) 100%);
+  background-color: linear-gradient(270deg, rgba(100,111,233,1) 0%, rgba(88,101,242,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#646fe9",endColorstr="#5865f2",GradientType=1); 
   font-size: 1rem;
   color: white;
   border: none;
   border-radius: 28px;
-  padding: 16px 32px;
+  padding: 14px 32px;
   cursor: pointer;
-  transition: 0.4s;
+  transition: .3s;
 }
 
 .cta-button:hover {
-  background-color: rgb(105, 116, 238)
+  background-color: rgb(71, 80, 185)
+}
+
+.cta-button:active {
+  background-color: rgb(58, 68, 175)
 }
 
 .features {
@@ -107,13 +135,12 @@ ul.nav-links li a:hover {
   transition: ease;
 }
 
-.feature__image,
-h2 {
+.feature__image, h2 {
   text-align: center;
 }
 
 .footer {
-  background-color: #333;
+  background-color: #1b1b1b;
   color: white;
   text-align: center;
   padding: 20px 0;
