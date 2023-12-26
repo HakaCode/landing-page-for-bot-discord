@@ -2,7 +2,7 @@
 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -30,6 +30,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TheDeveloperProjectOpenSource"><img src="https://avatars1.githubusercontent.com/u/24197640?v=4?s=100" width="100px;" alt="TheDeveloperProjectOpenSource"/><br /><sub><b>TheDeveloperProjectOpenSource</b></sub></a><br /><a href="#design-TheDeveloperProjectOpenSource" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Luan-Santos-Dev"><img src="https://avatars.githubusercontent.com/u/96590556?v=4?s=100" width="100px;" alt="Luan dos Santos"/><br /><sub><b>Luan dos Santos</b></sub></a><br /><a href="https://github.com/HakaCode/landing-page-for-bot-discord/commits?author=Luan-Santos-Dev" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://diogopereira.tech"><img src="https://avatars.githubusercontent.com/u/89779630?v=4?s=100" width="100px;" alt="Diogo Pereira"/><br /><sub><b>Diogo Pereira</b></sub></a><br /><a href="https://github.com/HakaCode/landing-page-for-bot-discord/commits?author=FhillSlinger" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
